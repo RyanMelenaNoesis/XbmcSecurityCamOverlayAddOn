@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32000">
+        <setting label="32001" type="text" id="url" default="" />
+        <setting label="32002" type="text" id="username" default="" />
+        <setting label="32003" type="text" id="password" option="hidden" default="" enable="!eq(-1,)" />
+    </category>
+    <category label="33000">
+        <setting label="33001" type="number" id="width" default="480" option="int" />
+        <setting label="33002" type="number" id="height" default="480" option="int" />
+        <setting label="33003" type="slider" id="interval" default="500" range="50,50,1000" option="int" />
+	<setting label="33004" type="bool" id="autoClose" default="true" />
+        <setting label="33005" type="slider" id="duration" default="15" range="3,1,120" option="int" enable="eq(-1,true)" />
+    </category>
+</settings>

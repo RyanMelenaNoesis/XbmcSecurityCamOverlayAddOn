@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+  <strings>
+
+    <string id="32000">Camera</string>
+    <string id="32001">Image Url:</string>
+
+    <string id="32002">Username:</string>
+    <string id="32003">Password:</string>
+    <string id="33000">Behavior</string>
+    <string id="33001">Window Width:</string>
+    <string id="33002">Window Height:</string>
+    <string id="33003">Refresh Interval (in milliseconds):</string>
+
+
+    <string id="33004">Enable auto-close after duration:</string>
+    <string id="33005">Duration (in seconds):</string>
+  </strings>
+
+

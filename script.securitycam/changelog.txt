@@ -1,0 +1,29 @@
+v0.0.9
+- Change image update method to prevent caching (should eliminate issue some users were seeing where image didn't update properly)
+- Eliminate dependency on urllib (now uses urllib2 exclusively)
+- Bumped python import version to 2.14.0 (per http://wiki.xbmc.org/index.php?title=Addon.xml#addon_attribute)
+
+v0.0.7
+- Fixed boolean bug that caused script to crash
+
+v0.0.6
+- Bump xmbc.python requirement from version 2.0 to version 2.1
+- Remove script.module.simplejson requirement
+- Add argument to ControlImage.setImage method to prevent image caching (http://mirrors.xbmc.org/docs/python-docs/13.0-gotham/xbmcgui.html#ControlImage)
+
+v0.0.5
+- Fixed bug causing cam image to download indefinitely when "Enable auto-close after duration" was set to disabled.
+- Added debug logging
+
+v0.0.4
+- Added support for url placeholders which can be passed to the Add-On (see http://wiki.xbmc.org/index.php?title=HOW-TO:Write_Python_Scripts#Passing_Arguments_to_a_Script) ex. http://localhost/{0}/{1}.jpg?size={2}
+
+v0.0.3
+- Added new method for authentication handling, previous method was failing
+
+v0.0.2
+- Added option to disable auto-close
+
+v0.0.1
+- Initial version
+
