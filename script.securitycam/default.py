@@ -13,7 +13,7 @@ __cwd__      = __addon__.getAddonInfo('path').decode("utf-8")
 __icon__     = xbmc.translatePath(os.path.join(__cwd__, 'icon.png').encode("utf-8")).decode("utf-8")
 __profile__  = xbmc.translatePath(__addon__.getAddonInfo('profile')).decode("utf-8")
 __resource__ = xbmc.translatePath(os.path.join(__cwd__, 'resources').encode("utf-8")).decode("utf-8")
-__snapshot_dir__ = xbmc.translatePath(os.path.join(__profile__, ADD_ON_ID, 'snapshots').encode("utf-8")).decode("utf-8")
+__snapshot_dir__ = xbmc.translatePath(os.path.join(__profile__, 'snapshots').encode("utf-8")).decode("utf-8")
 
 # Get settings
 url       = __addon__.getSetting('url')
