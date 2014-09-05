@@ -81,7 +81,7 @@ class CamPreviewDialog(xbmcgui.WindowDialog):
 
     def update(self, image):
         log('Updating Image \n', xbmc.LOGDEBUG)
-        self.image.setImage(image, bool(0))
+        self.image.setImage(image)
     
 # Main execution
 
