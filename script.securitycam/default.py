@@ -67,6 +67,7 @@ class CamPreviewDialog(xbmcgui.WindowDialog):
             imgData = urllib2.urlopen(url).read()
             filename = snapshot = xbmc.translatePath( os.path.join( destination, 'snapshot' + str(time.time()) + '.jpg' ).encode("utf-8") ).decode("utf-8")
             output = open(filename,'wb')
+            log('Saving Image To: [' + filename + ']\n', xbmc.LOGDEBUG)
             output.write(imgData)
             output.close()
             return filename
