@@ -106,7 +106,7 @@ argCount = len(sys.argv)
 for i in xrange(1, argCount):
     search = '{%d}'%(i - 1)
     replace = sys.argv[i]
-    url.replace(search, replace)
+    url = url.replace(search, replace)
 
 log('Final URL: [' + url + ']\n', xbmc.LOGDEBUG)
 
